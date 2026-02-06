@@ -20,12 +20,21 @@
 3. System Services
 -   Disable autologin
 -   Stop and disable:
-        Print Spooler           - hardens systems against remote code execution and privilege escalation vulnerabilities (PrintNightmare)
-        Remote Registry         - limiting the ability of remote users to view / modify / delete critical system configurations
-        Bluetooth (servers)     - eliminate the device’s visibility to hackers, preventing unauthorized pairing + vulnerabilities like "BlueBorne" 
-                                that allow attackers to steal data, eavesdrop, or gain remote access
-        Avahi/Bonjour on Linux  - reduces attack surface (closes UDP port 5353) and limiting network information leakage through beaconing
-        RPC if not needed       - reduces attack surface (closing ports) used in brute-force, DDoS, and remote code execution exploits
+        1) Print Spooler
+        hardens systems against remote code execution and privilege escalation vulnerabilities (PrintNightmare)
+
+        2) Remote Registry
+        limiting the ability of remote users to view / modify / delete critical system configurations
+
+        3) Bluetooth (servers)
+        eliminate the device’s visibility to hackers, preventing unauthorized pairing + vulnerabilities like "BlueBorne" 
+        that allow attackers to steal data, eavesdrop, or gain remote access
+
+        4) Avahi/Bonjour on Linux
+        reduces attack surface (closes UDP port 5353) and limiting network information leakage through beaconing
+
+        5) RPC if not needed
+        reduces attack surface (closing ports) used in brute-force, DDoS, and remote code execution exploits
 
 4. Logging & Monitoring
 -   Enable Windows Event Logs

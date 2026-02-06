@@ -5,6 +5,7 @@ Author: Anmol Rana
 This script is built by scourcing from publicly available sources from 
 Microsoft, CIS recommendations, and community tutorials. 
 All consolidation was done by me.
+Test thoroughly in non-production environments before deployment.
 #>
 
 #ensure this script is run as admin, otherwise stop and exit

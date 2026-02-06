@@ -49,20 +49,26 @@ This project aims to implement a secure configuration baseline for:
 ## MITRE ATT&CK Mapping
 This project helps to harden against some MITRE ATT%CKs. The following shows the attacks mitigated against and how its done side by side followed by a link for more information about the attack itself:
 
-1. T1021.002: SMB/Windows Admin Share                   Disable SMBv1, firewall
-https://attack.mitre.org/techniques/T1021/002/
+1. T1021.002: SMB/Windows Admin Share
+-  Disable SMBv1, firewall
+-  https://attack.mitre.org/techniques/T1021/002/
 
-2. T1003 – Credential Dumping	                        File permissions, audit, patching
-https://attack.mitre.org/techniques/T1003/
+2. T1003 – Credential Dumping
+-  File permissions, audit, patching
+-  https://attack.mitre.org/techniques/T1003/
 
-3. T1078 – Valid Accounts	                            SSH hardening, password policy
-https://attack.mitre.org/techniques/T1078/
+3. T1078 – Valid Accounts
+-  SSH hardening, password policy
+-  https://attack.mitre.org/techniques/T1078/
 
-4. T1047 – Windows Management Instrumentation (PS)      PowerShell logging
-https://attack.mitre.org/techniques/T1047/
+4. T1047 – Windows Management Instrumentation (PS)
+-  PowerShell logging
+-  https://attack.mitre.org/techniques/T1047/
 
-5. T1562 – Impair Defences                              Auditd, logging, secure configs
-https://attack.mitre.org/techniques/T1562/
+5. T1562 – Impair Defences
+-  Auditd, logging, secure configs
+-  https://attack.mitre.org/techniques/T1562/
 
-6. T1059 – Command & Scripting Interpreter	            Logging, restricted permissions
-https://attack.mitre.org/techniques/T1059/
+6. T1059 – Command & Scripting Interpreter
+-  Logging, restricted permissions
+-  https://attack.mitre.org/techniques/T1059/

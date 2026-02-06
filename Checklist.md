@@ -20,6 +20,7 @@
 3. System Services
 -   Disable autologin
 -   Stop and disable:
+
         1) Print Spooler
         hardens systems against remote code execution and privilege escalation vulnerabilities (PrintNightmare)
 
